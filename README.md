@@ -12,4 +12,5 @@ Site para consultar a lista [Python Brasil](https://wiki.python.org.br/ListaDeEx
 :bug: Correção de bug <br>
 :checkered_flag: Release <br>
 :new: Novo Projeto <br>
-:mortar_board: Nova Linguagens de Programação
+:mortar_board: Nova Linguagens de Programação <br>
+:books: Novo Exercício <br>
