@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Delpupo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-20 10:42:50 "/>
+        <attribute name="created" value="RGVscHVwbztQQy1ERUxQVVBPOzIwMjItMDEtMjA7IjEwOjM5OjMzICI7MjY0MQ=="/>
+        <attribute name="edited" value="RGVscHVwbztQQy1ERUxQVVBPOzIwMjItMDEtMjA7IjEwOjQyOjUwICI7MTsyNzQy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nun1, nun2, soma" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o primeiro n&#250;mero: &quot;" newline="True"/>
+            <input variable="nun1"/>
+            <output expression="&quot;escreva o segund n&#250;mero: &quot;" newline="True"/>
+            <input variable="nun2"/>
+            <assign variable="soma" expression="nun1+ nun2"/>
+            <output expression="&quot; A soma de &quot; &amp; nun1 &amp; &quot;+&quot; &amp; nun2&amp; &quot; = &quot; &amp; soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
