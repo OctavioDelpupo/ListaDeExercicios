@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tecnologia"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-21 01:53:04 "/>
+        <attribute name="created" value="dGVjbm9sb2dpYTtPQ1TDgVZJTzsyMDIyLTAxLTIxOyIwMTo0MjozNSAiOzI5MDI="/>
+        <attribute name="edited" value="dGVjbm9sb2dpYTtPQ1TDgVZJTzsyMDIyLTAxLTIxOyIwMTo1MzowNCAiOzE7MzAwOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="area, l, dobro" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual o tamanho do lado do quadrado: &quot;" newline="True"/>
+            <input variable="l"/>
+            <assign variable="area" expression="l^2"/>
+            <assign variable="dobro" expression="area * 2"/>
+            <output expression="&quot;Area &#233; do quadrado &#233; &quot; &amp; area &amp; &quot; e o drobro &#233; &quot; &amp; dobro" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

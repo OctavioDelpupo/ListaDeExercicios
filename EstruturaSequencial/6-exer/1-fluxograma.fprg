@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tecnologia"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-21 01:42:10 "/>
+        <attribute name="created" value="dGVjbm9sb2dpYTtPQ1TDgVZJTzsyMDIyLTAxLTIxOyIwMToyOToyMyAiOzI5MDQ="/>
+        <attribute name="edited" value="dGVjbm9sb2dpYTtPQ1TDgVZJTzsyMDIyLTAxLTIxOyIwMTo0MjoxMCAiOzE7MzAwMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="raio, area" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o raio do circulo: &quot;" newline="True"/>
+            <input variable="raio"/>
+            <assign variable="area" expression="raio * 3.14"/>
+            <output expression="&quot;Area do clirculo &#233;: &quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

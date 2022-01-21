@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tecnologia"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-21 01:29:21 "/>
+        <attribute name="created" value="dGVjbm9sb2dpYTtPQ1TDgVZJTzsyMDIyLTAxLTIwOyIwNTo1OTo1NyAiOzI5MTc="/>
+        <attribute name="edited" value="dGVjbm9sb2dpYTtPQ1TDgVZJTzsyMDIyLTAxLTIxOyIwMToyOToyMSAiOzM7MzAxMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="qtMetros, qtCM" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o quantidade de metros para convers&#227;o: &quot;" newline="True"/>
+            <input variable="qtMetros"/>
+            <assign variable="qtCM" expression="qtMetros * 100"/>
+            <output expression="qtMetros &amp; &quot; mt tem&quot; &amp; qtCM &amp; &quot; cm&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
