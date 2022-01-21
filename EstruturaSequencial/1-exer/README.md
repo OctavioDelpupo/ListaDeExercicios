@@ -10,3 +10,4 @@ Faça um Programa que mostre a mensagem "Alo mundo" na tela.
 2. C++
 3. Pseudocódigo
 4. Python
+5. JavaScript
