@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tecnologia"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-21 05:17:38 "/>
+        <attribute name="created" value="dGVjbm9sb2dpYTtPQ1TDgVZJTzsyMDIyLTAxLTIxOyIwNTowODozNiAiOzI5MDk="/>
+        <attribute name="edited" value="dGVjbm9sb2dpYTtPQ1TDgVZJTzsyMDIyLTAxLTIxOyIwNToxNzozOCAiOzI7MzAyMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valorHoraTrabalhada, qtHorasTrabalhadaMes, salario" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual o valor da sua hora trabalhada: &quot;" newline="True"/>
+            <input variable="valorHoraTrabalhada"/>
+            <output expression="&quot;Quantidade de horas trabalhada no m&#234;s: &quot;" newline="True"/>
+            <input variable="qtHorasTrabalhadaMes"/>
+            <assign variable="salario" expression="valorHoraTrabalhada * qtHorasTrabalhadaMes"/>
+            <output expression="&quot;Valor salario m&#234;s: &quot; &amp; salario &amp; &quot; R$&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
