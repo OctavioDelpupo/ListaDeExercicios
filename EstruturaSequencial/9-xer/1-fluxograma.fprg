@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Delpupo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-23 08:51:31 "/>
+        <attribute name="created" value="RGVscHVwbztQQy1ERUxQVVBPOzIwMjItMDEtMjM7IjA4OjQ2OjIyICI7MjY0Nw=="/>
+        <attribute name="edited" value="RGVscHVwbztQQy1ERUxQVVBPOzIwMjItMDEtMjM7IjA4OjUxOjMxICI7MTsyNzUx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tempF, tempC" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a temperatura em Fahrenheit: &quot;" newline="True"/>
+            <input variable="tempF"/>
+            <assign variable="tempC" expression="5 * ((tempF-32) / 9)"/>
+            <output expression="&quot;Temperatura em Fahrenheit &quot; &amp; tempF" newline="True"/>
+            <output expression="&quot; Temperatura em Graus Celsius &quot; &amp; tempC" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
