@@ -4,8 +4,9 @@
  <a href="#-objetivo">Objetivo</a> •
  <a href="#-tecnologias">Tecnologias</a> • 
  <a href="#-status-do-projeto">Status do projeto</a> •
-  <a href="#-lista-exercicio">Lista de exercícios</a> •
- <a href="#-autor">Autor</a>
+ <a href="#-lista-exercicio">Lista de exercícios</a> •
+ <a href="#-ícones">Ícones</a>•
+ <a href="#-autor">Autor</a>•
 </p>
 
 ## 🚀 Objetivo:
