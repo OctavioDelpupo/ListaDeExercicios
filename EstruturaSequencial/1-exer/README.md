@@ -4,10 +4,10 @@
 
 Faça um Programa que mostre a mensagem "Alo mundo" na tela.
 
-## Linguagem utilizadas para resolver os exercícios 💻
+## 💻 TECNOLOGIAS:
 
-1. Fluxograma
-2. C++
-3. Pseudocódigo
-4. Python
-5. JavaScript
+- [✔️] _Fluxograma_
+- [✔️] _C++_
+- [✔️] _Pseudocódigo_
+- [✔️] _Python_
+- [✔️] _JavaScript_

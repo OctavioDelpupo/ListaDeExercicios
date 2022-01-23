@@ -4,9 +4,8 @@
 
 Faça um Programa que converta metros para centímetros.
 
-## Linguagem utilizadas para resolver os exercícios 💻
-
-1. Fluxograma
-2. C++
-3. Pseudocódigo
-4. Python
+- [✔️] _Fluxograma_
+- [ ] _C++_
+- [ ] _Pseudocódigo_
+- [ ] _Python_
+- [ ] _JavaScript_
