@@ -50,6 +50,7 @@
 :new: Novo Projeto <br>
 :mortar_board: Nova Linguagens de Programação <br>
 :books: Novo Exercício <br>
+:heavy_check_mark: Exercício resolvido <br>
 
 
 
