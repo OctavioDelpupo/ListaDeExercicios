@@ -10,4 +10,4 @@ Faça um Programa que peça um número e então mostre a mensagem O número info
 - [✔️ ] _C++_
 - [ ✔️] _Pseudocódigo_
 - [✔️ ] _Python_
-- [ ] _JavaScript_
+- [✔️ ] _JavaScript_
