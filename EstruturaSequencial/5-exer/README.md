@@ -8,4 +8,4 @@ Faça um Programa que converta metros para centímetros.
 - [✔️] _C++_
 - [✔️] _Pseudocódigo_
 - [✔️] _Python_
-- [ ] _JavaScript_
+- [✔️] _JavaScript_
