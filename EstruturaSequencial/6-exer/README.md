@@ -8,4 +8,4 @@ Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
 - [✔️] _C++_
 - [✔️] _Pseudocódigo_
 - [✔️] _Python_
-- [ ] _JavaScript_
+- [✔️] _JavaScript_
