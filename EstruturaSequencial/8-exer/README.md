@@ -8,4 +8,4 @@ Faça um Programa que pergunte quanto você ganha por hora e o número de horas 
 - [✔️] _C++_
 - [✔️] _Pseudocódigo_
 - [✔️] _Python_
-- [ ] _JavaScript_
+- [✔️] _JavaScript_
