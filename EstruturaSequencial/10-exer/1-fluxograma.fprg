@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Octavio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-07 08:24:20 "/>
+        <attribute name="created" value="T2N0YXZpbztPQ1RBVklPLURFTFBVUE87MjAyMi0wMi0wNzsiMDg6MTk6MjAgIjszMDMw"/>
+        <attribute name="edited" value="T2N0YXZpbztPQ1RBVklPLURFTFBVUE87MjAyMi0wMi0wNzsiMDg6MjQ6MjAgIjsxOzMxMzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tempF, tempC" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a temperatura em graus Celsius&quot;" newline="True"/>
+            <input variable="tempC"/>
+            <assign variable="tempF" expression="tempC * 1.8 + 32"/>
+            <output expression="tempC &amp; &quot;graus Celsius equivalem a &quot; &amp; tempF &amp;&quot; graus Fahrenheit.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
