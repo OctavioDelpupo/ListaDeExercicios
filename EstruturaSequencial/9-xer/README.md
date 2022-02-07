@@ -9,4 +9,4 @@ C = 5 * ((F-32) / 9).
 - [✔️] _C++_
 - [✔️] _Pseudocódigo_
 - [✔️] _Python_
-- [ ] _JavaScript_
+- [✔️] _JavaScript_
