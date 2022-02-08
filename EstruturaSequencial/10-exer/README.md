@@ -8,4 +8,4 @@ Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre 
 - [✔️] _C++_
 - [✔️] _Pseudocódigo_
 - [✔️] _Python_
-- [ ] _JavaScript_
+- [✔️] _JavaScript_
