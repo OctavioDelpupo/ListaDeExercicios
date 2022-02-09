@@ -4,23 +4,27 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Octavio"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-02-07 09:24:21 "/>
+        <attribute name="saved" value="2022-02-08 09:24:03 "/>
         <attribute name="created" value="T2N0YXZpbztPQ1RBVklPLURFTFBVUE87MjAyMi0wMi0wNzsiMDk6MDY6NDkgIjszMDM4"/>
-        <attribute name="edited" value="T2N0YXZpbztPQ1RBVklPLURFTFBVUE87MjAyMi0wMi0wNzsiMDk6MjQ6MjEgIjsxOzMxMzY="/>
+        <attribute name="edited" value="T2N0YXZpbztPQ1RBVklPLURFTFBVUE87MjAyMi0wMi0wODsiMDk6MjQ6MDMgIjs4OzMxNDQ="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="num1, num2" type="Integer" array="False" size=""/>
-            <declare name="num3, soma" type="Real" array="False" size=""/>
+            <declare name="num1, num2, dobro" type="Integer" array="False" size=""/>
+            <declare name="num3, soma, cubo" type="Real" array="False" size=""/>
             <output expression="&quot;Digite o primeiro n&#250;mero intenrio: &quot;" newline="True"/>
             <input variable="num1"/>
             <output expression="&quot;Digite o segundo n&#250;mero intenrio: &quot;" newline="True"/>
             <input variable="num2"/>
             <output expression="&quot;Digite o terceiro n&#250;mero real&quot;" newline="True"/>
             <input variable="num3"/>
-            <assign variable="soma" expression="num1+num2+num3"/>
-            <output expression="&quot;A soma &#233;: &quot; &amp; soma" newline="True"/>
+            <assign variable="dobro" expression="((num1 * 2) *( num2 / 2))"/>
+            <output expression="&quot;O produto do dobro do primeiro com metade do segundo: &quot; &amp; dobro" newline="True"/>
+            <assign variable="soma" expression="(num1 * 3) + num3"/>
+            <output expression="&quot;A soma do triplo do primeiro com o terceiro: &quot; &amp; soma" newline="True"/>
+            <assign variable="cubo" expression="num3 ^ 3"/>
+            <output expression="&quot;O terceiro elevado ao cubo: &quot; &amp; cubo" newline="True"/>
         </body>
     </function>
 </flowgorithm>
