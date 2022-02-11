@@ -3,15 +3,14 @@ programa
 	
 	funcao inicio()
 	{
-		real raio, area
+		real metro,cm
 
-		 escreva("Digite o raio do clirculo: ")
-		 leia(raio)
+		escreva("A quantidade de metros para cm: " )
+		leia(metro)
 
-		area = raio * 3.41
+		cm = metro * 100
 
-		escreva("A area do circulo e ", area)
-		 
+		escreva("A quantidade de cm é: ", cm)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +18,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 179; 
+ * @POSICAO-CURSOR = 98; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
