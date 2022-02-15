@@ -7,7 +7,7 @@ Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que ca
 ## 💻 TECNOLOGIAS:
 - [✔️] _Fluxograma_
 - [✔️] _C++_
-- [ ] _Pseudocódigo_
+- [✔️] _Pseudocódigo_
 - [ ] _Python_
 - [ ] _JavaScript_
 
