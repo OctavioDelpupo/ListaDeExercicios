@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Octavio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-15 08:28:29 "/>
+        <attribute name="created" value="T2N0YXZpbztPQ1RBVklPLURFTFBVUE87MjAyMi0wMi0xNTsiMDg6MjM6NDYgIjszMDMy"/>
+        <attribute name="edited" value="T2N0YXZpbztPQ1RBVklPLURFTFBVUE87MjAyMi0wMi0xNTsiMDg6Mjg6MjkgIjszOzMxNDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="h, pesoIdealH, pesoIdealM" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite seu Altura: &quot;" newline="True"/>
+            <input variable="h"/>
+            <assign variable="pesoIdealH" expression="(72.7 * h ) - 58"/>
+            <assign variable="pesoIdealM" expression="(62.1 * h ) - 44.7"/>
+            <output expression="&quot;Peso ideal para homens: &quot; &amp; pesoIdealH &amp; &quot; Peso ideal para mulheres: &quot; &amp; pesoIdealM" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

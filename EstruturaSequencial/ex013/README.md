@@ -9,7 +9,7 @@ Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que
 
 ## 💻 TECNOLOGIAS:
 
-- [ ] _Fluxograma_
+- [✔️] _Fluxograma_
 - [ ] _C++_
 - [ ] _Pseudocódigo_
 - [ ] _Python_
