@@ -9,6 +9,6 @@ Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que ca
 - [✔️] _C++_
 - [✔️] _Pseudocódigo_
 - [ ] _Python_
-- [ ] _JavaScript_
+- [✔️] _JavaScript_
 
 
