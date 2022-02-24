@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Octavio Delpupo"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-02-23 09:47:41 "/>
+        <attribute name="saved" value="2022-02-23 10:01:23 "/>
         <attribute name="created" value="T2N0YXZpbyBEZWxwdXBvO0RFTFBVUE87MjAyMi0wMi0yMzsiMDk6MzA6MzggIjszMjE0"/>
-        <attribute name="edited" value="T2N0YXZpbyBEZWxwdXBvO0RFTFBVUE87MjAyMi0wMi0yMzsiMDk6NDc6NDEgIjs5OzMzMzI="/>
+        <attribute name="edited" value="T2N0YXZpbyBEZWxwdXBvO0RFTFBVUE87MjAyMi0wMi0yMzsiMTA6MDE6MjMgIjsxMTszMzU1"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -24,8 +24,8 @@
                     <assign variable="multa" expression="0"/>
                 </else>
             </if>
-            <output expression="&quot;excesso: &quot; &amp; excesso" newline="True"/>
-            <output expression="&quot;Multa: &quot; &amp; multa" newline="True"/>
+            <output expression="&quot;Excesso de peso &#233;: &quot; &amp; excesso &amp; &quot; KG &quot;" newline="True"/>
+            <output expression="&quot;Multa de R$: &quot; &amp; multa" newline="True"/>
         </body>
     </function>
 </flowgorithm>
