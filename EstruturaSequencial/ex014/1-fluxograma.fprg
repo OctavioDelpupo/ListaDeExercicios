@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Octavio Delpupo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-23 09:47:41 "/>
+        <attribute name="created" value="T2N0YXZpbyBEZWxwdXBvO0RFTFBVUE87MjAyMi0wMi0yMzsiMDk6MzA6MzggIjszMjE0"/>
+        <attribute name="edited" value="T2N0YXZpbyBEZWxwdXBvO0RFTFBVUE87MjAyMi0wMi0yMzsiMDk6NDc6NDEgIjs5OzMzMzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="peso, excesso, multa" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o peso do peixe: &quot;" newline="True"/>
+            <input variable="peso"/>
+            <if expression="peso &gt; 50">
+                <then>
+                    <assign variable="excesso" expression="peso - 50"/>
+                    <assign variable="multa" expression="excesso * 4"/>
+                </then>
+                <else>
+                    <assign variable="excesso" expression="0"/>
+                    <assign variable="multa" expression="0"/>
+                </else>
+            </if>
+            <output expression="&quot;excesso: &quot; &amp; excesso" newline="True"/>
+            <output expression="&quot;Multa: &quot; &amp; multa" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
