@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="octav"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-21 05:17:44 "/>
+        <attribute name="created" value="b2N0YXY7REVMUFVQTzsyMDIyLTA0LTIxOyIwNTowNTo0MSAiOzIyNjE="/>
+        <attribute name="edited" value="b2N0YXY7REVMUFVQTzsyMDIyLTA0LTIxOyIwNToxNzo0NCAiOzU7MjM3OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tamanho, velocidade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Tamanho do arquivo em (MB)&quot;" newline="True"/>
+            <input variable="tamanho"/>
+            <output expression="&quot;Velocidade da Internete (MBps)&quot;" newline="True"/>
+            <input variable="velocidade"/>
+            <output expression="&quot;Tempo aproximado de download e &quot; &amp; (tamanho / velocidade) * 60" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

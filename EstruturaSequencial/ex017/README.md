@@ -14,7 +14,7 @@ Informe ao usuário as quantidades de tinta a serem compradas e os respectivos p
 
 ## 💻 TECNOLOGIAS:
 
-- [ ] _Fluxograma_
+- [✔️] _Fluxograma_
 - [ ] _C++_
 - [ ] _Pseudocódigo_
 - [ ] _Python_
