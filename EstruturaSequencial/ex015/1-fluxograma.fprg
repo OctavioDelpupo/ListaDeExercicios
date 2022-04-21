@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="octav"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-21 12:00:56 "/>
+        <attribute name="created" value="b2N0YXY7REVMUFVQTzsyMDIyLTA0LTIwOyIxMDo1MTozOSAiOzIyNjQ="/>
+        <attribute name="edited" value="b2N0YXY7REVMUFVQTzsyMDIyLTA0LTIxOyIxMjowMDo1NiAiOzE7MjM2OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="qtHoras, qtHorasMes, salarioMes, ir, inss, sindicato, salarioLiquido" type="Integer" array="False" size=""/>
+            <output expression="&quot;Quantos voce ganha por hora&quot;" newline="True"/>
+            <input variable="qtHoras"/>
+            <output expression="&quot;Horas trabalahda mes&quot;" newline="True"/>
+            <input variable="qtHorasMes"/>
+            <assign variable="salarioMes" expression="qtHoras * qtHorasMes"/>
+            <assign variable="ir" expression="salarioMes * 0.11"/>
+            <assign variable="inss" expression="salarioMes * 0.08"/>
+            <assign variable="sindicato" expression="salarioMes * 0.05"/>
+            <assign variable="salarioLiquido" expression="salarioMes - (ir + inss + sindicato)"/>
+            <output expression="&quot;+ Salario Bruto: R$ &quot; &amp; salarioMes" newline="True"/>
+            <output expression="&quot;- IR (11%) &quot; &amp; ir" newline="True"/>
+            <output expression="&quot;- INSS (8%) : R$ &quot; &amp; inss" newline="True"/>
+            <output expression="&quot;- Sindicato (5&amp;) : R$ &quot; &amp; sindicato" newline="True"/>
+            <output expression="&quot;= Salario Liquido R$ &quot; &amp; salarioLiquido" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -24,7 +24,7 @@ Faça um Programa que pergunte quanto você ganha por hora e o número de horas 
 Obs.: Salário Bruto - Descontos = Salário Líquido.
 ## 💻 TECNOLOGIAS:
 
-- [ ] _Fluxograma_
+- [✔️] _Fluxograma_
 - [ ] _C++_
 - [ ] _Pseudocódigo_
 - [ ] _Python_
