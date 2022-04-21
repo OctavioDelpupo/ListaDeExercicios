@@ -7,9 +7,9 @@ Faça um programa que peça o tamanho de um arquivo para download (em MB) e a ve
 ## 💻 TECNOLOGIAS:
 
 - [✔️ ] _Fluxograma_
-- [ ] _C++_
-- [ ] _Pseudocódigo_
-- [ ] _Python_
+- [✔️ ] _C++_
+- [✔️ ] _Pseudocódigo_
+- [✔️ ] _Python_
 - [ ] _JavaScript_
 
 
