@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="octav"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-21 12:23:32 "/>
+        <attribute name="created" value="b2N0YXY7REVMUFVQTzsyMDIyLTA0LTIxOyIxMjowODo0MiAiOzIyNjM="/>
+        <attribute name="edited" value="b2N0YXY7REVMUFVQTzsyMDIyLTA0LTIxOyIxMjoyMzozMiAiOzE7MjM2Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="area, qtLata, preco" type="Integer" array="False" size=""/>
+            <output expression="&quot;Qual o tamaho da area a ser pintada: m2&quot;" newline="True"/>
+            <input variable="area"/>
+            <assign variable="qtLata" expression="area / 54"/>
+            <assign variable="preco" expression="qtLata * 80"/>
+            <output expression="&quot;Quantidade de lata :&quot; &amp; qtLata" newline="True"/>
+            <output expression="&quot;Valor Total R$: &quot; &amp; preco" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

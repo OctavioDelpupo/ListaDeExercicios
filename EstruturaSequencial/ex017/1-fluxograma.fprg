@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="octav"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-21 05:02:05 "/>
+        <attribute name="created" value="b2N0YXY7REVMUFVQTzsyMDIyLTA0LTIxOyIwMTo0MzozMiAiOzIyNTk="/>
+        <attribute name="edited" value="b2N0YXY7REVMUFVQTzsyMDIyLTA0LTIxOyIwNTowMjowNSAiOzU2OzI0MjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="area, qtListros, qtLatas, qtValor, qtGaloes, valorGaloes, misturaLatas, misturaGaloes, somaMistura" type="Integer" array="False" size=""/>
+            <output expression="&quot;Qual o tamaho da area a ser pintada: m2&quot;" newline="True"/>
+            <input variable="area"/>
+            <assign variable="qtListros" expression="area / 6"/>
+            <assign variable="qtLatas" expression="qtListros / 18"/>
+            <if expression="qtLatas % 18 != 0">
+                <then>
+                    <assign variable="qtLatas" expression="qtLatas + 1"/>
+                    <assign variable="qtValor" expression="qtLatas * 80"/>
+                </then>
+                <else>
+                    <assign variable="qtLatas" expression="1"/>
+                    <assign variable="qtValor" expression="80"/>
+                </else>
+            </if>
+            <assign variable="qtGaloes" expression="qtListros / 3.6"/>
+            <if expression="qtGaloes % 3.6 != 0">
+                <then>
+                    <assign variable="qtGaloes" expression="qtGaloes + 1"/>
+                    <assign variable="valorGaloes" expression="qtGaloes * 25"/>
+                </then>
+                <else/>
+            </if>
+            <assign variable="misturaLatas" expression="qtListros / 18.0"/>
+            <assign variable="misturaGaloes" expression="(qtListros - (misturaLatas* 18)) / 3.6"/>
+            <if expression="qtListros - (misturaLatas * 18) % 3.6 !=0">
+                <then>
+                    <assign variable="misturaGaloes" expression="misturaGaloes + 1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="qtLatas &amp; &quot; latas de 18L &quot; &amp;  &quot;, preco de R$ &quot; &amp; qtValor" newline="True"/>
+            <output expression="qtGaloes &amp; &quot; galoes de 3.6L&quot; &amp; &quot; preco de &quot; &amp; valorGaloes" newline="True"/>
+            <assign variable="somaMistura" expression="(misturaLatas * 80) + (misturaGaloes * 25)"/>
+            <output expression="&quot;Mistura: &quot; &amp; misturaLatas &amp; &quot; latas de 18L &quot; &amp; misturaGaloes &amp; &quot; galoes de 3.6L &quot; &amp; &quot; valor TOTAL R$ &quot; &amp; somaMistura" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

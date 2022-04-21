@@ -6,7 +6,7 @@ Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em
 
 ## 💻 TECNOLOGIAS:
 
-- [ ] _Fluxograma_
+- [✔️] _Fluxograma_
 - [ ] _C++_
 - [ ] _Pseudocódigo_
 - [ ] _Python_
