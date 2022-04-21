@@ -10,6 +10,6 @@ João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar 
 - [✔️] _C++_
 - [✔️] _Pseudocódigo_
 - [✔️] _Python_
-- [ ] _JavaScript_
+- [✔️] _JavaScript_
 
 
