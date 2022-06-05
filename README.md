@@ -65,7 +65,8 @@
 </table>
 
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/pedro-paulo-dantas-costa/)](www.linkedin.com/in/octavio-delpupo)
+## 📱 CONTATO
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/pedro-paulo-dantas-costa/)](https://br.linkedin.com/in/octavio-delpupo)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:0901dantaspedro@gmail.com)](mailto:octavio.delpupo@gmail.com)
 
 
