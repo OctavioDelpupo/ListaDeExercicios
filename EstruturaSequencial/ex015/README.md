@@ -25,7 +25,7 @@ Obs.: Salário Bruto - Descontos = Salário Líquido.
 ## 💻 TECNOLOGIAS:
 
 - [✔️] _Fluxograma_
-- [ ] _C++_
+- [✔️] _C++_
 - [ ] _Pseudocódigo_
 - [ ] _Python_
 - [ ] _JavaScript_
